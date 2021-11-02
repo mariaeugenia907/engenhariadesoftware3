@@ -1,0 +1,17 @@
+class Post
+{
+	public $status = PostStatus: :rascunho;
+	
+	public function publica()
+	(
+		if ($this-> status === PostStatus: :racunho)
+{
+		throw new PostPublicadoException();
+}
+		$this->status = PostStatus: :publicado;
+}
+}
+
+$post = new post();
+$post->pulica();
+
